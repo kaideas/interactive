@@ -738,6 +738,10 @@ body.clickhole .logo{
 	vertical-align: text-top;
 }
 
+body.clickhole .container{
+	width: 640px;
+}
+
 /*reddit reddit.com */
 
 body.reddit h1{
