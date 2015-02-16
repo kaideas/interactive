@@ -596,10 +596,14 @@ body.uniwatchcover header{
 	margin-top: 20%;
 	text-transform: uppercase;
 	color: #e8a713;
+	font-size: 5em;
+
+	border-bottom: #e8a713 double 30px;
 }
 
 body.uniwatchcover h2{
 	color: white;
+	font-size: 2em;
 }
 
 
