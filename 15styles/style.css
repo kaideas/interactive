@@ -589,16 +589,21 @@ body.uniwatchcover {
 	background-origin: initial;
 	background-clip: initial;
 	background-color: initial;
-	padding-top: 20px;
 }
 
 body.uniwatchcover header{
+	padding-top: 20px;
 	margin-top: 20%;
 	text-transform: uppercase;
 	color: #e8a713;
 	font-size: 3em;
 
 	border-bottom: #e8a713 double 70px;
+}
+
+body.uniwatchcover h1{
+	-webkit-text-stroke-width: 1px;
+	-webkit-text-stroke-color: white;
 }
 
 body.uniwatchcover h2{
