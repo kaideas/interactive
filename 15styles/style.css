@@ -572,6 +572,39 @@ body.uniwatch .text{
 	padding: 0px 30px;
 }
 
+/*uniwatch cover*/
+body.uniwatchcover {
+	text-align: center;
+	margin: 0;
+	padding: 0;
+	font-family: "octin-college";
+	font-size: 13px;
+	line-height: 1.4;
+	color: #000;
+	background-image: url(http://www.uni-watch.com/wp-content/themes/atahualpa/images/bg/bg-uw5.jpg);
+	background-position: 0;
+	background-position-y: initial;
+	background-size: initial;
+	background-attachment: initial;
+	background-origin: initial;
+	background-clip: initial;
+	background-color: initial;
+	padding-top: 20px;
+}
+
+body.uniwatchcover header{
+	margin-top: 20%;
+	text-transform: uppercase;
+	color: #e8a713;
+}
+
+body.uniwatchcover h2{
+	color: white;
+}
+
+
+
+
 /*Apple apple.com/jobs.us/*/
 
 body.apple p{
@@ -982,5 +1015,631 @@ margin-left: auto;
 margin-right: auto;
 max-width: 90em;
 }
+
+/*NYT x Reddit*/
+
+body.nytxreddit
+
+body.nytxreddit h1{
+
+	margin-bottom: 1px;
+	font-weight: 400;
+	font: normal x-small verdana,arial,helvetica,sans-serif;
+	font-size: 1.1em;
+	line-height: 1.4em;
+	color: #551a8b;
+}
+
+body.nytxreddit .text{
+	padding: 5px 10px;
+	background-color: #fafafa;
+	border: 1px solid #369;
+	border-radius: 7px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	font-weight: 400;
+	max-width: 60em;
+	color: #222222;
+}
+
+/*body.nytxreddit p{
+
+	margin-top: 0.35714285714285715em;
+	margin-bottom: 0.7em;
+	font-weight: 400;
+	font: normal x-small verdana,arial,helvetica,sans-serif;
+	font-size: .9em;
+	line-height: 1.4em;
+}*/
+/*
+body.nytxreddit h2{
+
+	margin-bottom: 2px;
+	margin-top: 2px;
+	font-weight: 400;
+	font: normal x-small verdana,arial,helvetica,sans-serif;
+	font-size: x-small;
+	line-height: 1.4em;
+	color: #888;
+}*/
+
+body.nytxreddit .container{
+	border-color: #E1F1FA!important;
+	margin: 20px 20px 20px 20px!important;
+	border: 1px solid #fdfdfd!important;
+	background-color: #fdfdfd;
+	-moz-border-radius: 16px!important;
+	-webkit-border-radius: 16px!important;
+	-moz-border-radius: 16px!important;
+	-webkit-border-radius: 16px!important;
+	padding-left: 16px;
+	padding-top: 2px;
+}
+
+body.nytxreddit {
+	background-color: #b4cfd8;
+margin: 0 auto!important;
+}
+
+body.nytxreddit {
+	margin-left: 60px;
+	margin-top: 70px;
+	-webkit-font-smoothing: antialiased;
+}
+
+body.nytxreddit p{
+	font-size: 1rem;
+	line-height: 1.4375rem;
+	font-weight: 400;
+	font-family: georgia,"times new roman",times,serif;
+	max-width: 540px;
+	margin-bottom: 1em;
+	margin: 0 0 1em 0;
+	color: #333;
+}
+
+body.nytxreddit .text{
+	width: 540px;
+	margin-left: 135px;
+	margin-top: 20px;
+	margin-bottom: 100px;
+}
+
+body.nytxreddit h1{
+	font-size: 2.125rem;
+	line-height: 2.375rem;
+	font-weight: 700;
+	font-family: "nyt-cheltenham",georgia,"times new roman",times,serif;
+	font-style: italic;
+	color: #000;
+	margin-bottom: 10px;
+	color: #551a8b;
+
+}
+
+body.nytxreddit .meta{
+	border-top: 1px solid #e2e2e2;
+	padding-top: 2px;
+	width: 1050px;
+}
+
+body.nytxreddit .by{
+	margin-bottom: 2px;
+	margin-top: 2px;
+	font: normal x-small verdana,arial,helvetica,sans-serif;
+	font-size: x-small;
+	line-height: 1.4em;
+	color: #888;
+}
+
+
+body.nytxreddit .author{
+	text-transform: uppercase;
+	margin-bottom: 2px;
+	margin-top: 2px;
+	font: normal x-small verdana,arial,helvetica,sans-serif;
+	font-size: x-small;
+	line-height: 1.4em;
+	color: #888;
+
+}
+
+body.nytxreddit .date{
+	text-transform: uppercase;
+	margin-bottom: 2px;
+	margin-top: 2px;
+	font: normal x-small verdana,arial,helvetica,sans-serif;
+	font-size: x-small;
+	line-height: 1.4em;
+	color: #888;
+	text-transform: uppercase;
+	font-feature-settings: "lnum";
+}
+
+/*Grantland x Uniwatch*/
+
+body.grantwatch {
+	text-align: center;
+	margin: 0;
+	padding: 0;
+	font-family: verdana,arial,sans-serif;
+	font-size: 13px;
+	line-height: 1.4;
+	color: #000;
+	background-image: url(http://www.uni-watch.com/wp-content/themes/atahualpa/images/bg/bg-uw5.jpg);
+	background-position: 0;
+	background-position-y: initial;
+	background-size: initial;
+	background-attachment: initial;
+	background-origin: initial;
+	background-clip: initial;
+	background-color: initial;
+	padding-top: 20px;
+}
+
+body.grantwatch .page{
+	background-image: url(http://www.uni-watch.com/wp-content/themes/atahualpa/images/bg/post-bg.jpg);
+	padding-top: 10px;
+	margin: 10px 0 30px 0;
+	display: block;
+	background-repeat-x: no-repeat;
+	background-repeat-y: no-repeat;
+}
+
+body.grantwatch .container{
+	padding: 20px;
+	background-image: url(http://www.uni-watch.com/wp-content/themes/atahualpa/images/bg/headerbg.jpg) repeat-x top left;
+	background-position-x: 0%;
+	background-position-y: 0%;
+	background-size: initial;
+	background-repeat-x: repeat;
+	background-repeat-y: no-repeat;
+	background-attachment: initial;
+	background-origin: initial;
+	background-clip: initial;
+	background-color: rgb(255, 255, 255);
+	border: solid 5px #e8a713;
+	-moz-box-shadow: 0 0 15px #333;
+	padding-left: 210px;
+	padding-right: 210px;
+	width: 550px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: left;
+	display: block;
+}
+
+body.grantwatch p{
+	margin: 1em 0;
+	margin-top: 1em;
+	margin-right: 0px;
+	margin-bottom: 1em;
+	margin-left: 0px;
+	padding: 0;
+	display: block;
+	word-wrap: break-word;
+}
+
+body.grantwatch .text{
+	padding: 20px 30px;
+}
+
+body.grantwatch h1{
+	font-family: "Harriet Display",Georgia,Times,"Times New Roman",serif;
+	font-size: 2em;
+	line-height: 1.2em;
+	font-weight: bold;
+	display:block;
+	margin-bottom: 0em;
+	letter-spacing: 0em;
+	color: #005d2e;
+}
+
+body.grantwatch .byline{
+font-family: "Harriet Text",Georgia,Times,"Times New Roman",serif;
+text-transform: lowercase;
+font-weight: 400;
+color: #cd251f;
+font-style: italic;
+font-size: .8125em;
+line-height: 1.63636em;
+margin: 0;
+padding: 0;
+}
+
+body.grantwatch .author{
+font-family: "Harriet Text",Georgia,Times,"Times New Roman",serif;
+text-transform: uppercase;
+font-weight: 400;
+color: #cd251f;
+font-size: .8125em;
+line-height: 1.63636em;
+}
+
+body.grantwatch .date{
+	text-transform: uppercase;
+color: #6d6f72;
+font-family: "Balto Web","Knockout 31 A","Knockout 31 B",HelveticaNeue,Helvetica,Arial,sans-serif;
+font-size: .8125em;
+font-weight: 500;
+letter-spacing: .1em;
+margin-top: 0;
+line-height: 1.63636em;
+margin: 5px 0;
+}
+
+body.grantwatch header{
+	padding: 0 3.3em 1.5em 0;
+border-bottom: 2px dotted #bbbbb9;
+border-width: 0 0 1px;
+border-image-source: url(https://s1.wp.com/wp-content/themes/vip/espn-grantland/img/dot-border.png);
+border-image-slice: 1;
+border-image-width: initial;
+border-image-outset: initial;
+border-image-repeat: repeat;
+letter-spacing: .1em;
+width: 475px;
+margin-left: 2.5em;
+}
+
+body.grantwatch .data{
+	padding: .5em 0 0 0;
+}
+
+body.grantwatch .dropcap{
+	font-size: 55px;
+	float: left;
+	line-height: .95em;
+	margin-right: .05em;
+	font-family: "Harriet Display",Georgia,Times,"Times New Roman",serif;
+	font-weight: 600;
+}
+
+body.grantwatch p{
+	font-family: "Harriet Text",Georgia,Times,"Times New Roman",serif;
+	line-height: 1.625em;
+	margin: 0;
+	padding: 0;
+	margin-bottom: 1.25em;
+}
+
+body.grantwatch .g{
+	content: ' ';
+display: inline-block;
+width: 13px;
+height: 13px;
+background-image: url(https://s1.wp.com/wp-content/themes/vip/espn-grantland/img/svg/grantland-article-icon.svg);
+background-size: 13px;
+position: relative;
+top: .3125em;
+vertical-align: text-top;
+margin-left: .25em;
+}
+
+body.grantland .text{
+	padding: 2em 3.3em 0 3.75em;
+	position: relative;
+	margin-bottom: 3.125em;
+	width: 560px;
+}
+
+/*Fixed Top*/
+
+body.fixedtop {
+	-webkit-font-smoothing: antialiased;
+	left: 10;
+	position: absolute;
+	background-color: #ADADAD;
+}
+
+body.fixedtop header {
+	position: fixed;
+	top: 0;
+	left: 0;
+	text-align: center;
+	background-color: rgba(68, 68, 68, .95);
+	width: 100%;
+	z-index: 2;
+
+}
+
+body.fixedtop h1{
+	font-weight: 300;
+	text-transform: uppercase;
+	letter-spacing: .6em;
+	font-size: 1.4em;
+	color: white;
+}
+
+body.fixedtop h2{
+	font-weight: 500;
+	text-transform: uppercase;
+	font-size: .9em;
+	letter-spacing: .3em;
+	color: #ADADAD;
+}
+
+body.fixedtop .container{
+	width: 50%;
+	margin-right: 20%;
+	margin-left: 20%;
+	padding-left: 5%;
+	padding-right: 5%;
+	padding-top: 1%;
+	font-family: "Avenir", sans-serif;
+}
+
+body.fixedtop .text{
+	display: inline-block;
+	position: relative;
+	padding-top: 120px;
+	background-color: #ADADAD;
+	line-height: 1.6em;
+	color: #444;
+	font-weight: 500;
+}
+
+body.fixedtop .dot{
+	margin-left: 48%;
+	margin-right: 48%;
+	padding-bottom: 10%;
+	color: #444;
+	font-size: 1.2em;
+}
+
+
+
+
+/*fixed top cover*/
+
+
+body.fixedtopcover {
+	-webkit-font-smoothing: antialiased;
+	margin: auto;
+	position: absolute;
+	background-color: rgba(72, 72, 72, 1);
+	font-family: "Avenir", sans-serif;
+	width: 100%;
+}
+
+body.fixedtopcover header {
+	text-align: center;
+	width: 100%;
+	z-index: 2;
+	margin-top: 10%;
+
+}
+
+body.fixedtopcover h1{
+	font-weight: 300;
+	text-transform: uppercase;
+	letter-spacing: .6em;
+	font-size: 2em;
+	color: white;
+}
+
+body.fixedtopcover h2{
+	font-weight: 500;
+	text-transform: uppercase;
+	font-size: 1.2em;
+	letter-spacing: .3em;
+	color: #ADADAD;
+}
+
+body.fixedtopcover .dot{
+text-align: center;
+	padding-bottom: 10%;
+	margin-top: 4em;
+	width: 100%;
+}
+
+body.fixedtopcover .images{
+	display: block;
+	margin: auto;
+	width: 100%;
+	text-align: center;
+	padding-top: 2em;
+}
+
+body.fixedtopcover a{
+	color: white;
+	font-size: 2em;
+	line-height: 0;
+}
+
+body.fixedtopcover a:hover{
+	color: #ADADAD;
+}
+
+body.fixedtopcover img{
+	max-width: 200px;
+	text-align: center;
+	width: 100;
+	display: inline;
+}
+
+
+/*2 columns*/
+body.columns {
+	-webkit-font-smoothing: antialiased;
+	font-family: "HelveticaNeue", "Helvetica", sans-serif;
+	width: 100%;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+body.columns .column1{
+	display: inline-block;
+	width: 400px;
+	vertical-align: top;
+	padding-left: 2em;
+	padding-right: 2em;
+}
+
+body.columns .column2{
+	display: inline-block;
+	width: 400px;
+	vertical-align: top;
+		padding-left: 2em;
+}
+
+body.columns .chunk{
+/*	margin-left: 100px;*/
+	position: relative;
+	width: 900px;
+	margin-bottom: 9em;
+	padding-top: 8em;
+	font-weight: 400;
+	font-size: 13px;
+	letter-spacing: .5px;
+	margin-right: auto;
+	margin-left: auto;
+
+}
+
+body.columns h3{
+	text-align: center;
+	background-color: rgb(50,130,180);
+	color: white;
+	margin-right: auto;
+	margin-left: auto;
+	width: 90px;
+	line-height: 40px;
+
+	font-weight: 500;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	font-size: 1.3em;
+}
+
+body.columns h3:hover{
+		background-color: rgba(50,130,180,.6);
+}
+
+
+body.columns a{
+	color: white;
+}
+
+body.columns .button{
+	display: block;
+	padding-top: 2em;
+}
+
+body.columns .button:hover{
+	opacity: 60%;
+}
+
+
+body.columns h1{
+	text-align: center;
+	font-weight: 700;
+	font-size: 2.5em;
+	line-height: .8em;
+}
+
+body.columns h2{
+	text-align: center;
+	font-weight: 300;
+	text-transform: uppercase;
+	font-size: 1em;
+	letter-spacing: 2px;
+	line-height: 1.5em;
+	margin-top: 2em;
+	margin-bottom: 6em;
+}
+
+
+body.columns .jump{
+	padding-bottom: 6em;
+}
+
+body.columns header{
+	padding-top: 15em;
+	padding-bottom: 15em;
+}
+
+body.columns .container{
+	width: 100%;
+	padding: auto;
+}
+
+/*fixed left*/
+
+body.fixedleft {
+	-webkit-font-smoothing: antialiased;
+	left: 0;
+	top: 0;
+	position: absolute;
+	background-color: rgb(0, 15, 50);
+}
+
+body.fixedleft header {
+	position: fixed;
+	text-align: center;
+	background-color: rgb(90, 100, 150);
+	width: 200px;
+	z-index: 2;
+	display: block;
+	left: 0;
+	top: 0;
+	padding-top: 100px;
+	padding-bottom: 100%;
+	padding-left: 30px;
+	padding-right: 30px;
+}
+
+body.fixedleft h1 {
+	font-family: Futura;
+	font-size: 1.7em;
+	text-align: left;
+	font-weight: bolder;
+	text-transform: uppercase;
+	color: rgb(0, 15, 50);
+	letter-spacing: 1px;
+}
+
+body.fixedleft h2 {
+	font-family: Futura;
+	font-size: 1.3em;
+	text-align: right;
+	font-style: italic;
+	font-weight: normal;
+	text-transform: uppercase;
+	color: rgba(255, 255, 255, 0.6);
+}
+
+body.fixedleft section {
+	display: block;
+	margin-left: 260px;
+	padding-left: 200px;
+	margin-top: 30px;
+	width: 600px;
+	font-family: Lucida Grande;
+	font-size: 1em;
+	line-height: 1.7em;
+}
+
+body.fixedleft p {
+	margin-bottom: 2em;
+	color: rgba(255, 255, 255, 0.6);
+}
+
+body.fixedleft h3{
+	text-align: center;
+	position: fixed;
+	bottom: 0;
+	left: 50px;
+	font-family: Futura;
+	font-weight: normal;
+	color: rgb(180, 200, 235);
+}
+
+body.fixedleft .container {
+	position: relative;
+}
+
+body.fixedleft img {
+	max-width: 250px;
 }
 
