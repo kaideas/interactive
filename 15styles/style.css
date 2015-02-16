@@ -601,11 +601,6 @@ body.uniwatchcover header{
 	border-bottom: #e8a713 double 70px;
 }
 
-body.uniwatchcover h1{
-	-webkit-text-stroke-width: 1px;
-	-webkit-text-stroke-color: white;
-}
-
 body.uniwatchcover h2{
 	color: white;
 	font-size: 1em;
@@ -784,6 +779,61 @@ body.clickhole .logo{
 body.clickhole .container{
 	width: 640px;
 }
+
+
+/*clickhole cover*/
+
+body.clickholecover {
+	font-family: Helvetica, Arial, sans-serif;
+	font-weight: normal;
+}
+
+
+body.clickholecover h1 {
+	color: #33C5F3;
+	display: block;
+	font-weight: bold;
+	font-size: 2em;
+	line-height: 1.2;
+	margin: 0 0 10px 0;
+}
+
+body.clickholecover :hover {
+	color: #ff6001;
+}
+
+
+body.clickholecover h2{
+	color: #3a3a3a;
+	font-size: 24px;
+	line-height: 16px;
+	font-weight: bold;
+
+}
+
+body.clickholecover h3{
+	color: #8c9994;
+	font-size: .8667em;
+	line-height: 1;
+	font-weight: normal;
+}
+
+body.clickholecover h3:hover{
+	color: #8c9994;
+	}
+
+body.clickholecover .container{
+	margin-left: 20%;
+	margin-top: 5%;
+}
+
+body.clickholecover img{
+	max-width: 400px;
+}
+
+
+
+
 
 /*reddit reddit.com */
 
