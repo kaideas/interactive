@@ -410,6 +410,53 @@ body.grantland .text{
 }
 
 
+/*yale school of art cover*/
+
+body.artcover {
+	background: orange;
+	height: 3700px;
+}
+
+body.artcover .container {
+/*	position: absolute;
+	left: 20px;*/
+}
+
+body.artcover h1{
+	color: #000000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	font-size: 25px;
+	line-height: 29px;
+	background: #ffffff;
+	width: 364px;
+	text-transform: uppercase;
+	display: block;
+}
+
+body.artcover .box1{
+		background: #e3ffff;
+		width: 10%;
+		height: 800px;
+	}
+body.artcover .box2{
+		background: #e3ffff;
+		width: 20%;
+		height: 900px;
+	}
+
+body.artcover .box3{
+		background: #e3ffff;
+		width: 40%;
+		height: 1000px;
+	}
+
+body.artcover .box4{
+		background: #e3ffff;
+		width: 60%;
+		height: 1200px;
+	}
+
 /*Yale School of Art art.yale.edu/*/
 
 body.art {
@@ -702,13 +749,45 @@ body.apple .text{
 	padding: 18px 60px 25px 60px;
 }
 
+
+/*fj cover*/
+
+body.fjcover {
+	background-color: #F8F7F6;
+}
+
+body.fjcover {
+	width: 100%;
+	margin-bottom: 50px;
+	float: left;
+	font-size: 4.2em;
+	word-spacing: -0.125em;
+	font-family: "Interstate Black Cond", Helvetica, sans-serif;
+	font-style: normal;
+	font-weight: bolder;
+	line-height: 1;
+	color: #11262b;
+}
+
+body.fjcover a{
+	text-transform: none;
+	color: #11262b;
+}
+
+body.fjcover .letter:hover{
+	text-transform: none;
+	color: rgba(17, 38, 43, 0.54)
+}
+
+
+
 /*Frere-Jones frerejones.com/blog/from-the-collection-007/*/
 
 body.frerejones p {
+		margin: 0;
 	margin-bottom: 0.6em;
 	color: #425663;
 	letter-spacing: 0.4px;
-	margin: 0;
 	font-size: 20px;
 	font-family: "Benton Modern", Georgia, serif;
 	font-style: normal;
@@ -725,6 +804,7 @@ body.frerejones .container {
 /*	margin: 0 auto;*/
 	margin: 80px auto 80px;
 	-webkit-font-smoothing: subpixel-antialiased;
+	margin-left: 30px;
 
 }
 
@@ -751,7 +831,7 @@ body.frerejones .metadata {
 	display: block;
 	font-family: "Interstate", Helvetica, sans-serif;
 	font-size: 13px;
-	font-weight: 400;
+	font-weight: 500;
 	text-transform: uppercase;
 	width: 15.15152%;
 	margin-right: 6.06061%;
@@ -759,6 +839,12 @@ body.frerejones .metadata {
 	margin-left: 0;
 	display: inline-block;
 	float: left;
+	color: #768fa1;
+	line-height: 15px;
+}
+
+body.frerejones {
+	background-color: #F8F7F6;
 }
 
 /*Clickhole clickhole.com blogpost*/
@@ -1028,10 +1114,11 @@ body.adccover {
 	margin-top: 50px;
 }
 
+body.adc .container{
+		margin-left: 340px;
+}
+
 body.adccover header {
-	position: absolute;
-	right: 218px;
-	top: 24px;
 	font-family: "freight-text-pro", georgia, serif;
 	font-style: normal;
 	font-weight: 400;
@@ -1063,7 +1150,6 @@ float: left;
 width: 370px;
 padding-right: 30px;
 margin-top: 40px;
-height: 3700px;
 padding-left: 30px;
 }
 
@@ -1075,6 +1161,20 @@ body.adccover ::selection {
 	background-color: rgba(56, 151, 160, 0.6);
 	color: #FFF;
 	text-shadow: none;
+}
+
+body.adccover h3 {
+/*	background-color: rgba(56, 151, 160, 0.6);
+	color: #FFF;*/
+	color: rgba(56,151,160,.6);
+	font-family: "freight-text-pro", georgia, serif;
+	font-style: normal;
+	font-weight: 400;
+	width: 340px;
+	text-align: right;
+	padding-right: 10px;
+	line-height: 30px;
+	font-size: 1.5em;
 }
 
 /*ADC http://adcglobal.org/hall-of-fame/yusaku-kamekura/*/
@@ -1181,8 +1281,8 @@ body.fod {
 body.fod .container{
 	margin-top: 2em;
 margin-bottom: 2em;
-margin-left: auto;
-margin-right: auto;
+margin-left: 20px;
+margin-right: 20px;
 max-width: 90em;
 }
 
