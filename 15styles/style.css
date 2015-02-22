@@ -309,6 +309,59 @@ body.nyt .date{
 	font-feature-settings: "lnum";
 }
 
+/*grantland cover*/
+body.gcover p{
+font-family: "Harriet Text",Georgia,Times,"Times New Roman",serif;
+font-weight: 400;
+color: #cd251f;
+font-style: italic;
+font-size: .8125em;
+line-height: 1.63636em;
+margin: 0;
+padding: 0;
+letter-spacing: -.06em;
+width: 100%;
+margin-top: 0;
+}
+
+body.gcover header a{
+	font-family: "Harriet Display",Georgia,Times,"Times New Roman",serif;
+	font-size: 4.125em;
+	line-height: 1.2em;
+	font-weight: bolder;
+/*	display:block;*/
+	margin-bottom: 0em;
+	letter-spacing: 0em;
+	color: white;
+	position: fixed;
+	text-align: center;
+	z-index: 3;
+	padding: 0;
+	margin: auto;
+	margin-top: 100px;
+}
+
+body.gcover h1{
+	margin: 0;
+}
+
+body.gcover ::selection {
+	background-color: #cd251f;
+	text-shadow: none;
+}
+
+body.gcover .container{
+	margin-top: 0;
+	top: 0;
+}
+
+body.gcover {
+	margin-top: 0px;
+	position: absolute;
+	top: 0;
+}
+
+
 /*Grantland http://grantland.com/features/worst-mlb-contracts-2015-alex-rodriguez-ryan-howard-prince-fielder/*/
 
 body.grantland h1{
@@ -1258,6 +1311,40 @@ body.adc .leftpic img{
 	max-width: 350px;
 	}
 
+/*fod cover*/
+body.fodcover .column1{
+	display: inline-block;
+	width: 510px;
+	vertical-align: top;
+}
+
+body.fodcover .column2{
+	display: inline-block;
+	width: 550px;
+	vertical-align: top;
+}
+
+body.fodcover{
+	font-size: 2.5rem;
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+	color: white;
+	background-color: #252525;
+	font-weight: bold;
+}
+
+body.fodcover a{
+	color: white;
+}
+
+body.fodcover .column1 a:hover{
+	color: yellow;
+}
+
+body.fodcover .column2 a:hover{
+	color: red;
+}
+
+
 /*Funny or Die http://www.funnyordie.com/about*/
 
 body.fod h1{
@@ -1425,6 +1512,62 @@ body.nytxreddit .date{
 	text-transform: uppercase;
 	font-feature-settings: "lnum";
 }
+
+/*grantwatch cover*/
+
+body.grantwatchcover p{
+font-family: "Harriet Text",Georgia,Times,"Times New Roman",serif;
+font-weight: 400;
+color: #e8a713;
+font-style: italic;
+font-size: .8125em;
+line-height: 1.63636em;
+margin: 0;
+padding: 0;
+letter-spacing: -.06em;
+width: 100%;
+}
+
+body.grantwatchcover {
+	text-align: center;
+	margin: 0;
+	padding: 0;
+	font-family: "octin-college";
+	font-size: 13px;
+	line-height: 1.4;
+	color: #000;
+	background-color: #023F15;
+}
+
+body.grantwatchcover header{
+	padding-top: 20px;
+	margin-top: 10%;
+	text-transform: uppercase;
+	color: #e8a713;
+	font-size: 2em;
+	border-bottom: #e8a713 double 70px;
+	position: fixed;
+	text-align: center;
+	z-index: 3;
+	padding: 0;
+}
+
+body.grantwatchcover header h1{
+	text-transform: uppercase;
+	color: #e8a713;
+	font-size: 3em;
+	padding: 0;
+}
+
+
+
+body.grantwatchcover h2{
+	color: white;
+	font-size: 1em;
+	padding-bottom: 1em;
+}
+
+
 
 /*Grantland x Uniwatch*/
 
