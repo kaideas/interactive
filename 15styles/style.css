@@ -609,6 +609,42 @@ body.uniwatchcover h2{
 
 
 
+/*apple cover*/
+ 
+body.applecover h1{
+	font-weight: lighter;
+	color: white;
+	margin: 20px 0 15px;
+	text-align: center;
+	line-height: normal;
+	font-size: 48px;
+	padding: 0;
+	font-family: "myriad-pro", sans-serif;
+}
+
+body.applecover h2{
+	font-weight: lighter;
+	color: #797c80;
+	font-family: "myriad-pro", sans-serif;
+	margin: 0 auto;
+	width: 870px;
+	text-align: center;
+	font-size: 24px;
+	line-height: 30px;
+	color: white;
+}
+
+body.applecover {
+	background-color: rgb(101,101,101);
+}
+
+body.applecover header{
+	padding-top: 130px;
+}
+
+body.applecover img{
+	max-width: 30px;
+}
 
 /*Apple apple.com/jobs.us/*/
 
@@ -625,7 +661,7 @@ body.apple p{
 	/*body.apple .tk-myriad-pro*/
 
 body.apple h1{
-	font-weight: bold;
+	font-weight: lighter;
 	color: #000;
 	margin: 20px 0 15px;
 	text-align: center;
@@ -636,7 +672,7 @@ body.apple h1{
 }
 
 body.apple h2{
-	font-weight: normal;
+	font-weight: lighter;
 	color: #797c80;
 	font-family: "myriad-pro", sans-serif;
 	margin: 0 auto;
@@ -647,7 +683,7 @@ body.apple h2{
 }
 
 body.apple h3{
-	font-weight: normal;
+	font-weight: lighter;
 	color: #000;
 	margin: 12px 0 8px;
 	text-align: left;
@@ -984,21 +1020,82 @@ body.ourtime .text{
 	padding: 0;
 }
 
+
+/*adc cover*/
+body.adccover {
+	background-color: rgb(244,244,244);
+	margin: auto;
+	margin-top: 50px;
+}
+
+body.adccover header {
+	position: absolute;
+	right: 218px;
+	top: 24px;
+	font-family: "freight-text-pro", georgia, serif;
+	font-style: normal;
+	font-weight: 400;
+	color: rgb(34, 34, 34);
+}
+
+body.adccover h1{
+	font-weight: 300;
+	font-size: 3rem;
+	padding-top: 40px;
+}
+
+body.adccover h2{
+	font-weight: 300;
+	font-size: 2rem;
+}
+
+body.adccover h3{
+	font-weight: 300;
+}
+
+body.adccover .highlight {
+	background-color: rgba(56, 151, 160, 0.6);
+	color: #FFF;
+}
+
+body.adccover .leftpic{
+float: left;
+width: 370px;
+padding-right: 30px;
+margin-top: 40px;
+height: 3700px;
+padding-left: 30px;
+}
+
+body.adccover .leftpic img{
+	max-width: 350px;
+	}
+
+body.adccover ::selection {
+	background-color: rgba(56, 151, 160, 0.6);
+	color: #FFF;
+	text-shadow: none;
+}
+
 /*ADC http://adcglobal.org/hall-of-fame/yusaku-kamekura/*/
 
 body.adc {
-	font-size: 62.5%
+	font-size: 62.5%;
+	background-color: rgb(244,244,244);
+	margin: auto;
+	margin-top: 50px;
 }
 
 body.adc h1{
 	line-height: 4.2rem;
 	font-size: 3rem;
-	font-family: "freight-text-pro", serif;
+	font-family: "freight-text-pro", georgia, serif;
 	font-style: normal;
 	font-weight: 400;
 	color: rgb(34, 34, 34);
 	margin: 0;
 	padding: 0;
+	padding-top: 40px;
 
 }
 
@@ -1011,9 +1108,9 @@ body.adc ::selection {
 body.adc .firstp {
 	padding-bottom: 24px;
 	padding-top: 20px;
-font-family: "freight-text-pro",serif;
+font-family: "freight-text-pro", Georgia, serif;
 font-size: 1.1rem;
-line-height: 2rem;
+line-height: 1.8rem;
 letter-spacing: 0.01em;
 color: rgb(34,34,34);
 font-weight: 400;
@@ -1026,7 +1123,7 @@ font-size: .8rem;
 line-height: 1.65rem;
 letter-spacing: 0.02em;
 color: rgb(34,34,34);
-font-weight: 400;
+font-weight: 300;
 }
 
 body.adc .text{
@@ -1047,6 +1144,19 @@ color: rgb(34,34,34);
 font-weight: 400;
 font-style: italic;
 }
+
+body.adc .leftpic{
+float: left;
+width: 370px;
+padding-right: 30px;
+margin-top: 40px;
+height: 3700px;
+padding-left: 30px;
+}
+
+body.adc .leftpic img{
+	max-width: 350px;
+	}
 
 /*Funny or Die http://www.funnyordie.com/about*/
 
@@ -1529,6 +1639,9 @@ body.columns {
 	width: 100%;
 	margin-right: auto;
 	margin-left: auto;
+	margin-top: 0;
+	position: relative;
+	top: 0;
 }
 
 body.columns .column1{
@@ -1566,9 +1679,8 @@ body.columns h3{
 	color: white;
 	margin-right: auto;
 	margin-left: auto;
-	width: 90px;
-	line-height: 40px;
-
+	width: 120px;
+	line-height: 50px;
 	font-weight: 500;
 	text-transform: uppercase;
 	letter-spacing: 3px;
@@ -1579,9 +1691,32 @@ body.columns h3:hover{
 		background-color: rgba(50,130,180,.6);
 }
 
+body.columns h4{
+	text-align: center;
+	background-color: white;
+	color: rgb(50,130,180);
+	margin-right: auto;
+	margin-left: auto;
+	width: 120px;
+	line-height: 50px;
+	font-weight: 500;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	font-size: 1.3em;
+}
+
+body.columns h4:hover{
+		background-color: rgba(255,255,255,.6);
+}
+
+body.columns h4 a{
+	color: rgb(50,130,180);
+	text-align: center;
+}
 
 body.columns a{
 	color: white;
+	text-align: center;
 }
 
 body.columns .button{
@@ -1598,7 +1733,8 @@ body.columns h1{
 	text-align: center;
 	font-weight: 700;
 	font-size: 2.5em;
-	line-height: .8em;
+	line-height: 1em;
+	color: white;
 }
 
 body.columns h2{
@@ -1610,6 +1746,7 @@ body.columns h2{
 	line-height: 1.5em;
 	margin-top: 2em;
 	margin-bottom: 6em;
+	color: rgba(255, 255, 255, .7);
 }
 
 
@@ -1618,13 +1755,21 @@ body.columns .jump{
 }
 
 body.columns header{
-	padding-top: 15em;
+	padding-top: 10em;
 	padding-bottom: 15em;
+	background-color: rgb(50,130,180);
+	top: 0;
+	margin-top: 0;
 }
 
-body.columns .container{
+/*body.columns .container{
 	width: 100%;
 	padding: auto;
+}*/
+
+body.columns html{
+	background-color: rgb(50,130,180);
+	display: inline;
 }
 
 /*fixed left*/
