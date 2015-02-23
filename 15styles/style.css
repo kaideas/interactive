@@ -1015,6 +1015,15 @@ body.applecover img{
 	max-width: 30px;
 }
 
+body.applecover img:hover{
+	-webkit-filter: drop-shadow(0px 0px 10px rgba(0,0,0,0.4));
+filter: drop-shadow(5px 5px 2px rgba(0,0,0,0.5));
+filter: url(shadow.svg#drop-shadow);
+-ms-filter: "progid:DXImageTransform.Microsoft.Dropshadow(OffX=12, OffY=12,
+Color='#444')";
+filter: "progid:DXImageTransform.Microsoft.Dropshadow(OffX=12, OffY=12, Color='#444')";
+}
+
 /*Apple apple.com/jobs.us/*/
 
 body.apple p{
@@ -2369,6 +2378,7 @@ body.columns h4 a{
 body.columns a{
 	color: white;
 	text-align: center;
+	width: 200px;
 }
 
 body.columns .button{
@@ -2407,8 +2417,8 @@ body.columns .jump{
 }
 
 body.columns header{
-	padding-top: 10em;
-	padding-bottom: 15em;
+	padding-top: 10%;
+	padding-bottom: 25%;
 	background-color: rgb(50,130,180);
 	top: 0;
 	margin-top: 0;
