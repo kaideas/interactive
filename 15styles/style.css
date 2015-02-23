@@ -1,5 +1,52 @@
+/*lohud cover*/
+body.lohudcover h1 {
+font: 1.5em Arial, "Trebuchet MS", Verdana, sans-serif;
+color: #2E3237;
+font-weight: bold;
+text-align: right;
+border-bottom: 2px solid #4B5565;
+font-weight: bold;
+text-align: right;
+margin-top: 10px;
+padding-right: 100px;
+-webkit-padding-after: 0.5em;
+-webkit-padding-before: 0.5em;
+margin-bottom: 0px;
+}
 
+body.lohudcover h2 {
+font: 1.5em Arial, "Trebuchet MS", Verdana, sans-serif;
+color: #2E3237;
+margin-top: 25px;
+font-weight: bold;
+text-align: right;
+margin-top: 10px;
+padding-right: 100px;
+padding-bottom: 25px;
+-webkit-padding-after: 0.5em;
+margin-bottom: 0px;
 
+}
+
+body.lohudcover a{
+	color: #2E3237;
+}
+
+body.lohudcover a:hover{
+	color: grey;
+}
+
+body.lohudcover {
+	font: 78%/1.6em "Lucida Sans Unicode", "Lucida Grande", LucidaGrande, "Lucida Sans", Geneva, verdana, tahoma, arial, sans-serif;
+		background-color: #d1d1d1;
+		margin-top: 0px;
+}
+
+body.lohudcover header{
+	background-color: white;
+width: 1800px;
+margin-top: 300px;
+}
 
 /* LoHud style http://yankees.lhblogs.com/2015/02/07/traded-yankees-peter-obrien-get-shot-arizona/*/
 body.lohud {
@@ -120,7 +167,7 @@ body.Yukoki .bti {
     margin-bottom: 10px;
 	display: block;
 }
-}
+
 
 body.Yukoki .online, .online a {
     font-family: consolas;
@@ -129,6 +176,92 @@ body.Yukoki .online, .online a {
     border-bottom: 0;
     color: #aaa;
 }
+
+/*yukoki cover*/
+
+body.Yukokicover header{
+		display: block;
+	margin-left: 100px;
+	margin-top: 100px;
+	position: fixed;
+	top: 180px;
+	left: 50px;
+	    width: 100%;
+}
+
+body.Yukokicover .bti {
+    color: #000;
+    font-family: consolas;
+    font-size: 30px;
+    font-style: italic;
+    border-bottom: 3px solid #edaea1;
+    margin-bottom: 10px;
+    padding-left: 10px;
+
+}
+
+body.Yukokicover .online, .online{
+    font-family: consolas;
+    font-size: 28px;
+    font-style: none;
+    border-bottom: 0;
+    color: #aaa;
+}
+
+
+body.Yukokicover a{
+	color: #000;
+}
+
+body.Yukokicover .gene:hover {
+	font-weight: bolder;
+	color: #edaea1;
+	}
+
+body.Yukokicover .takahashis:hover{
+	text-transform: uppercase;
+		color: #edaea1;
+}
+
+body.Yukokicover  {
+	    background-color: #f5f5f5;
+}
+
+
+
+
+
+/*nymag cover*/
+
+body.nymagcover .container{
+	margin-left: 20rem;
+	width: 700px;
+	margin-right: 0rem;
+}
+
+body.nymagcover h1{
+	margin: 0rem;
+	width: 700px;
+	text-align: right;
+}
+
+body.nymagcover h1 a:hover{
+	color: #323232;
+	font-family: Georgia, serif;
+	font-size: 10rem;
+	font-weight: 500;
+}
+
+body.nymagcover h1 a{
+	color: rgb(253, 253, 253);
+	font-family: Georgia, serif;
+	font-size: 10rem;
+	font-weight: 500;
+	margin: 0rem;
+}
+
+
+
 
 /*NYmag http://nymag.com/daily/intelligencer/2015/02/alleged-rapist-in-columbia-case-speaks-out-again.html*/
 
@@ -142,7 +275,7 @@ body.nymag .container p {
 	/*padding-bottom: 1.25rem;*/
 	position: relative;
 /*	float: left;*/
-	margin-left: 8.4rem;
+/*	margin-left: 8.4rem;*/
 	/*margin-top: 2.2rem;*/
 	width: 33.6rem;
 }
@@ -150,8 +283,8 @@ body.nymag .container p {
 body.nymag header h1 {
 color: #323232;
 font-family: Georgia, serif;
-font-size: 2.3rem;
-font-weight: 400;
+font-size: 2rem;
+font-weight: 500;
 margin: 0rem;
 }
 
@@ -178,7 +311,7 @@ body.nymag header h3 {
 }
 
 body.nymag .container {
-	margin-left: 2rem;
+	margin-left: 10rem;
 }
 
 body.nymag h4{
@@ -189,6 +322,70 @@ body.nymag h4{
 	padding: 1.4rem 0 0rem 0;
 	font-weight: lighter;
 }
+
+/*medium cover*/
+body.medcover .container{
+	width: 700px;
+	margin-right: auto;
+	margin-left: auto;
+	color: rgba(0,0,0,0.8);
+	-webkit-font-smoothing: antialiased;
+}
+
+body.medcover h1 {
+font-family: "jaf-bernino-sans","Lucida Grande","Lucida Sans Unicode","Lucida Sans",Geneva,Verdana,sans-serif;
+letter-spacing: -0.02em;
+font-weight: 700;
+font-style: normal;
+font-size: 60px;
+margin-left: -3px;
+line-height: 1;
+letter-spacing: -0.04em;
+margin-top: 40px;
+padding-top: 0;
+margin-bottom: 8px;
+}
+
+body.medcover h2 {
+margin-top: -6px;
+font-family: "jaf-bernino-sans","Lucida Grande","Lucida Sans Unicode","Lucida Sans",Geneva,Verdana,sans-serif;
+letter-spacing: -0.02em;
+font-weight: 300;
+font-style: normal;
+font-size: 32px;
+margin-left: -1.6px;
+line-height: 1.2;
+color: rgba(0,0,0,0.44);
+margin-bottom: 2px;
+display: block;
+margin-top: -6px;
+}
+
+body.medcover img{
+	width: 400px;
+}
+
+body.medcover a{
+	color: rgba(0,0,0,0.8);
+}
+
+body.medcover .txtUpsideDown {
+	filter:  progid:DXImageTransform.Microsoft.BasicImage(rotation=2);  /* IE6,IE7 */
+	ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=2)"; /* IE8 */
+	-moz-transform: rotate(-180deg);  /* FF3.5+ */
+	-o-transform: rotate(-180deg);  /* Opera 10.5 */
+	-webkit-transform: rotate(-180deg);  /* Safari 3.1+, Chrome */
+	position: absolute; 
+}
+
+body.medcover .rotate90 {
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
+
 
 /*Medium https://medium.com/de-correspondent/links-are-broken-these-three-alternatives-have-improved-our-readers-reading-experience-796c302c8930*/
 
@@ -238,6 +435,77 @@ body.med p{
 	line-height: 1.5;
 	display: block;
 	margin-bottom: 30px;
+}
+
+/*nytcover*/
+
+body.nytcover {
+	margin-left: 60px;
+	margin-top: 70px;
+	-webkit-font-smoothing: antialiased;
+	position: absolute;
+	left: 100px;
+	top: 50px;
+}
+
+body.nytcover .container{
+	width: 177px;
+	margin-right: 21px;
+	padding-bottom: 12px;
+	border-bottom: 1px solid #e2e2e2;
+}
+
+body.nytcover h1{
+font-size: 1.625rem;
+	line-height: 1.75rem;
+	font-weight: 700;
+	font-family: "nyt-cheltenham",georgia,"times new roman",times,serif;
+	font-style: italic;
+	color: #000;
+	margin-bottom: 0px;
+}
+
+body.nytcover a:hover{
+	text-decoration: underline;
+	color: #000;
+}
+
+body.nytcover .meta{
+	padding-top: 2px;
+	width: 1050px;
+}
+
+body.nytcover .by{
+font-size: 0.625rem;
+line-height: 12px;
+line-height: 0.75rem;
+font-weight: 500;
+font-family: georgia,"times new roman",times,serif;
+color: #999;
+margin: 4px 0 1px;
+}
+
+body.nytcover img{
+	width: 177px;
+}
+
+
+body.nytcover p{
+	font-size: 1rem;
+	line-height: 1.4375rem;
+	font-weight: 400;
+	font-family: georgia,"times new roman",times,serif;
+	max-width: 540px;
+	margin-bottom: 1em;
+	margin: 0 0 1em 0;
+	color: #333;
+}
+
+body.nytcover p a{
+	color: #000;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: .9rem;
 }
 
 /*NYT http://www.nytimes.com/2015/02/09/books/harper-lee-lawyer-offers-more-details-on-discovery-of-go-set-a-watchman.html?hp&action=click&pgtype=Homepage&module=photo-spot-region&region=top-news&WT.nav=top-news&_r=0*/
@@ -343,6 +611,7 @@ body.gcover header a{
 
 body.gcover h1{
 	margin: 0;
+	line-height: 1em;
 }
 
 body.gcover ::selection {
@@ -1008,6 +1277,9 @@ body.clickholecover img{
 
 
 
+/*reddit cover*/
+
+
 
 
 /*reddit reddit.com */
@@ -1073,6 +1345,45 @@ body.reddit {
 margin: 0 auto!important;
 }
 
+		/*reddit cover*/
+
+		body.reddit .container2{
+			border-color: #E1F1FA!important;
+			margin: 20px 20px 20px 20px!important;
+			border: 1px solid #fdfdfd!important;
+			background-color: #fdfdfd;
+			-moz-border-radius: 16px!important;
+			-webkit-border-radius: 16px!important;
+			-moz-border-radius: 16px!important;
+			-webkit-border-radius: 16px!important;
+			padding-left: 16px;
+			padding-right: 16px;
+			padding-top: 2px;
+			padding-bottom: 16px;
+			width: 300px;
+			text-align: center;
+			position: fixed;
+			top: 20%;
+			left: 20%;
+		}
+
+		body.reddit .bigpage{
+			width: 2000px;
+			height: 2000px;
+		}
+
+
+/*ourtime cover*/
+body.ourtime .cover p{
+	background-color: #222;
+}
+
+body.ourtime .cover p:hover{
+	background-color: #fff;
+}
+
+
+
 /*Our Time thisisourtimebook.com/creatives/sir-peter-blake/*/
 
 body.ourtime h1{
@@ -1091,6 +1402,7 @@ body.ourtime h1{
 	vertical-align: baseline;
 	background: transparent;
 	text-align: center;
+	margin-top: 20px;
 }
 
 body.ourtime h2{
@@ -1103,13 +1415,6 @@ body.ourtime h2{
 	text-rendering: optimizeLegibility;
 	text-align: center;
 }
-
-/*body.ourtime .container{
-	margin: 0 auto;
-	padding: 0 50px;
-	position: relative;
-	max-width: 1520px;
-}*/
 
 body.ourtime {
 	background-color: #fff;
@@ -1133,6 +1438,7 @@ body.ourtime h3{
 
 body.ourtime p{
 	margin-bottom: 18px;
+	margin-top: 0px;
 	padding: 0;
 	border: 0;
 	vertical-align: baseline;
@@ -1373,6 +1679,108 @@ margin-right: 20px;
 max-width: 90em;
 }
 
+/*nytxreddit cover*/
+
+body.nytredditcover {
+	margin-left: 60px;
+	margin-top: 70px;
+	-webkit-font-smoothing: antialiased;
+	position: absolute;
+	left: 100px;
+	top: 50px;
+}
+
+body.nytredditcover .container{
+	width: 177px;
+	margin-right: 21px;
+	padding-bottom: 12px;
+	border-bottom: 1px solid #e2e2e2;
+
+	border-color: #E1F1FA!important;
+	margin: 20px 20px 20px 20px!important;
+	border: 1px solid #fdfdfd!important;
+	background-color: #fdfdfd;
+	-moz-border-radius: 16px!important;
+	-webkit-border-radius: 16px!important;
+	-moz-border-radius: 16px!important;
+	-webkit-border-radius: 16px!important;
+	padding-left: 16px;
+	padding-top: 2px;
+	padding-right: 10px;
+}
+
+body.nytredditcover {
+	background-color: #b4cfd8;
+	margin: 0 auto!important;
+}
+
+body.nytredditcover a{
+	color: #000;
+}
+
+body.nytredditcover h1{
+font-size: 1.625rem;
+	line-height: 1.75rem;
+	font-weight: 700;
+	font-family: "nyt-cheltenham",georgia,"times new roman",times,serif;
+	font-style: italic;
+	color: #000;
+	margin-bottom: 0px;
+}
+
+body.nytredditcover a:hover{
+	text-decoration: underline;
+	color: #000;
+}
+
+body.nytredditcover .meta{
+	padding-top: 2px;
+}
+
+body.nytredditcover .by{
+font-size: 0.625rem;
+line-height: 12px;
+line-height: 0.75rem;
+font-weight: 500;
+font-family: georgia,"times new roman",times,serif;
+color: #999;
+margin: 4px 0 1px;
+}
+
+
+body.nytredditcover .author{
+	font-size: 0.6875rem;
+	line-height: 0.75rem;
+	font-weight: 700;
+	font-family: "nyt-cheltenham-sh",georgia,"times new roman",times,serif;
+	text-transform: uppercase;
+
+}
+
+body.nytredditcover img{
+	width: 177px;
+}
+
+
+body.nytredditcover p{
+	font-size: 1rem;
+	line-height: 1.4375rem;
+	font-weight: 400;
+	font-family: georgia,"times new roman",times,serif;
+	max-width: 540px;
+	margin-bottom: 1em;
+	margin: 0 0 1em 0;
+	color: #333;
+}
+
+body.nytredditcover p a{
+	color: #000;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: .9rem;
+}
+
+
 /*NYT x Reddit*/
 
 body.nytxreddit
@@ -1550,6 +1958,7 @@ body.grantwatchcover header{
 	text-align: center;
 	z-index: 3;
 	padding: 0;
+	width: 100%;
 }
 
 body.grantwatchcover header h1{
