@@ -263,6 +263,11 @@ position: relative;
 	width: 40px;
 }
 
+.plusiconmobile {
+	width: 40px;
+	opacity: 0;
+}
+
 .csmlogo img{
 	width: 40px;
 	position: fixed;
@@ -274,6 +279,16 @@ position: relative;
 
 .csmlogo img:hover{
 	opacity: .5;
+}
+
+.csmlogomobile {
+	width: 40px;
+	position: fixed;
+	float: right;
+	top: 1%;
+	right: 1%;
+	z-index: 5;
+	opacity: 0;
 }
 
 
@@ -669,4 +684,36 @@ position: relative;
 .whitemiddle .contact {
 	padding-right: 6%;
 }
+
+.csmlogomobile img{
+	width: 40px;
+	position: fixed;
+	float: right;
+	top: 1%;
+	right: 1%;
+	z-index: 5;
+	display: block;
+}
+
+/*.csmlogomobile{
+	opacity: 1;
+}
+
+.csmlogomobile img:hover{
+	opacity: .5;
+}
+
+.csmlogo {
+	opacity: 0;
+}
+*/
+
+.arrow img{
+	padding-top: 7px;
+}
+
+.repeat img{
+	padding-top: 7px;
+}
+
 }
