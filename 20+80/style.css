@@ -263,10 +263,6 @@ position: relative;
 	width: 40px;
 }
 
-.plusiconmobile {
-	width: 40px;
-	opacity: 0;
-}
 
 .csmlogo img{
 	width: 40px;
@@ -372,7 +368,7 @@ position: relative;
 }
 
 .whitemiddle .program {
-	margin-top: 25%;
+	margin-top: 20%;
 	display: inline-block;
 
 }
@@ -685,7 +681,7 @@ position: relative;
 	padding-right: 6%;
 }
 
-.csmlogomobile img{
+/*.csmlogomobile img{
 	width: 40px;
 	position: fixed;
 	float: right;
@@ -693,7 +689,7 @@ position: relative;
 	right: 1%;
 	z-index: 5;
 	display: block;
-}
+}*/
 
 /*.csmlogomobile{
 	opacity: 1;
