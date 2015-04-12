@@ -1,8 +1,6 @@
 $(document).ready(function(){
 
-// var mq= window.matchMedia('@media screen and (max-width: 520px)');
-
-if($(window).width()<520) {
+if (window.matchMedia('(max-width: 520px)').matches) {
 
 		$("div.csmlogo").html('<img src="csmlogo2.svg">');
 		 console.log("yay");

@@ -286,7 +286,7 @@ position: relative;
 	opacity: .5;
 }
 
-.csmlogomobile {
+./*csmlogomobile {
 	width: 40px;
 	position: fixed;
 	float: right;
@@ -295,7 +295,7 @@ position: relative;
 	z-index: 5;
 	opacity: 0;
 }
-
+*/
 
 .nav {
 	list-style: none;
