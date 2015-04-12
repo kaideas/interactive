@@ -94,7 +94,7 @@ body{
 }
 
 .whitemiddle .descrip .textcontainer {
-	bottom: 20px;
+	bottom: 40px;
 }
 
 .orangeleft .textcontainer{
@@ -236,7 +236,7 @@ position: relative;
 }
 
 .dates {
-	padding-top: 40px;
+	padding-top: 30px;
 }
 
 .fullnav .nav {
@@ -363,12 +363,14 @@ position: relative;
 }
 
 .event img{
-	width: 15vw;
+	width: 20vw;
 	padding-bottom: 20px;
+	max-height: 60vh;
+
 }
 
-.whitemiddle .program {
-	margin-top: 10%;
+.program{
+	padding-top: 10%;
 	display: inline-block;
 
 }
@@ -394,7 +396,7 @@ position: relative;
 }
 
 .whitemiddle .contact {
-	margin-top: 10vh;
+	margin-top: 5vh;
 	display: inline-block;
 	width: 60%;
 
@@ -425,10 +427,11 @@ position: relative;
 }
 
 .whitemiddle .contact h3{
-	font-size: 1.5em;
+	font-size: 1em;
 	font-family: verlag;
 	font-weight: 200;
 	text-align: left;
+	margin-top: 0px;
 }
 
 .arrow {
@@ -478,12 +481,38 @@ position: relative;
 	border-top: 5px solid rgb(245, 71, 5);
 }
 
+
+.submissions{
+	margin: 0;
+	height:50vh;
+	top: 0;
+	color: white;
+	z-index: 1;
+	 overflow: scroll;
+	 border-top: solid rgb(245, 71, 5) 5px;
+	 	 border-bottom: solid rgb(245, 71, 5) 5px;
+
+	 margin-bottom: 20px;
+	 width: 166%;
+	 margin-left: -34%;
+}
+
+.submissions img{
+	margin-top: 0px;
+	margin-bottom: 10px;
+	width: 100%;
+}
+
+
+
 @media screen and (min-width: 1600px) {
 .whitemiddle .descrip p{
 	padding-left: 10%;
 	padding-right: 10%;
 }
 }
+
+
 
 
 @media screen and (max-width: 1000px) {
@@ -502,10 +531,6 @@ position: relative;
 	font-family: verlag;
 	font-weight: 200;
 	line-height: 1.1em;
-}
-
-.event img{
-	max-height: 40%;
 }
 
 }
@@ -625,8 +650,9 @@ position: relative;
 	width: 50vw;
 }
 
-.event img{
-	width: 22vw;
+.whitemiddle .event img{
+	width: 35vw;
+	padding-bottom: 30px;
 }
 
 
