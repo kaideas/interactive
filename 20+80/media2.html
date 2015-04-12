@@ -7,6 +7,210 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 	<link rel="stylesheet" href="normalize.css">
 	<link rel="stylesheet" href="style.css">
+
+
+
+<!-- Add jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+
+	<!-- Add fancyBox main JS and CSS files -->
+	<script type="text/javascript" src="source/jquery.fancybox.js"></script>
+	<link rel="stylesheet" type="text/css" href="source/jquery.fancybox.css" media="screen" />
+
+	<!-- Add Button helper (this is optional) -->
+	<link rel="stylesheet" type="text/css" href="source/helpers/jquery.fancybox-buttons.css?v=1.0.5" />
+	<script type="text/javascript" src="source/helpers/jquery.fancybox-buttons.js?v=1.0.5"></script>
+
+	<!-- Add Thumbnail helper (this is optional) -->
+	<link rel="stylesheet" type="text/css" href="source/helpers/jquery.fancybox-thumbs.css?v=1.0.7" />
+	<script type="text/javascript" src="source/helpers/jquery.fancybox-thumbs.js?v=1.0.7"></script>
+
+	<!-- Add Media helper (this is optional) -->
+	<script type="text/javascript" src="source/helpers/jquery.fancybox-media.js?v=1.0.6"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			/*
+			 *  Simple image gallery. Uses default settings
+			 */
+
+			$('.fancybox').fancybox();
+
+			// Set custom style, close if clicked, change title type and overlay color
+			$(".fancybox-effects-c").fancybox({
+				wrapCSS    : 'fancybox-custom',
+				closeClick : true,
+
+				openEffect : 'none',
+
+				helpers : {
+					title : {
+						type : 'inside'
+					},
+					overlay : {
+						css : {
+							'background' : 'rgba(238,238,238,0.85)'
+						}
+					}
+				}
+			});
+
+			// Remove padding, set opening and closing animations, close if clicked and disable overlay
+			$(".fancybox-effects-d").fancybox({
+				padding: 0,
+
+				openEffect : 'elastic',
+				openSpeed  : 150,
+
+				closeEffect : 'elastic',
+				closeSpeed  : 150,
+
+				closeClick : true,
+
+				helpers : {
+					overlay : null
+				}
+			});
+
+			/*
+			 *  Button helper. Disable animations, hide close button, change title type and content
+			 */
+
+			$('.fancybox-buttons').fancybox({
+				openEffect  : 'none',
+				closeEffect : 'none',
+
+				prevEffect : 'none',
+				nextEffect : 'none',
+
+				closeBtn  : false,
+
+				helpers : {
+					title : {
+						type : 'inside'
+					},
+					buttons	: {}
+				},
+
+				afterLoad : function() {
+					this.title = 'Image ' + (this.index + 1) + ' of ' + this.group.length + (this.title ? ' - ' + this.title : '');
+				}
+			});
+
+
+			/*
+			 *  Thumbnail helper. Disable animations, hide close button, arrows and slide to next gallery item if clicked
+			 */
+
+			$('.fancybox-thumbs').fancybox({
+				prevEffect : 'none',
+				nextEffect : 'none',
+
+				closeBtn  : false,
+				arrows    : false,
+				nextClick : true,
+
+				helpers : {
+					thumbs : {
+						width  : 50,
+						height : 50
+					}
+				}
+			});
+
+			/*
+			 *  Media helper. Group items, disable animations, hide arrows, enable media and button helpers.
+			*/
+			$('.fancybox-media')
+				.attr('rel', 'media-gallery')
+				.fancybox({
+					openEffect : 'none',
+					closeEffect : 'none',
+					prevEffect : 'none',
+					nextEffect : 'none',
+
+					arrows : false,
+					helpers : {
+						media : {},
+						buttons : {}
+					}
+				});
+
+			/*
+			 *  Open manually
+			 */
+
+			$("#fancybox-manual-c").click(function() {
+				$.fancybox.open([
+					{
+						href : '01.jpg',
+					}, {
+						href : '02.jpg',
+					}, {
+						href : '03.jpg'
+					}, {
+						href : '04.jpg',
+					}, {
+						href : '05.jpg',
+					}, {
+						href : '06.jpg'
+					},
+					{
+						href : '07.jpg',
+					}, {
+						href : '08.jpg',
+					}, {
+						href : '09.jpg'
+					}, {
+						href : '10.jpg',
+					}, {
+						href : '11.jpg',
+					}, {
+						href : '12.jpg'
+					}, {
+						href : '13.jpg',
+					}, {
+						href : '14.jpg',
+					}, {
+						href : '15.jpg'
+					}, {
+						href : '16.jpg',
+					}, {
+						href : '17.jpg',
+					}, {
+						href : '18.jpg'
+					}, {
+						href : '19.jpg',
+					}, {
+						href : '20.jpg',
+					}, {
+						href : '21.jpg'
+					}, {
+						href : '22.jpg',
+					}, {
+						href : '23.jpg'
+					}, {
+						href : '24.jpg',
+					}, {
+						href : '25.jpg'
+					}, {
+						href : '26.jpg',
+					},
+
+				], {
+					helpers : {
+						thumbs : {
+							width: 75,
+							height: 50
+						}
+					}
+				});
+			});
+
+
+		});
+	</script>
+
 </head>
 
 <body>
@@ -64,50 +268,21 @@
 <h1>MEDIA SUBMISSIONS</h1>
 <h3>
 Thanks for sending in your submissions!<br>Here are some highlights:<br>
-</h3>	
-
-<div class="submissions">
+</h3>
 
 <div id="fb-root"></div><script>(function(d, s, id) {  var js, fjs = d.getElementsByTagName(s)[0];  if (d.getElementById(id)) return;  js = d.createElement(s); js.id = id;  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.3";  fjs.parentNode.insertBefore(js, fjs);}(document, 'script', 'facebook-jssdk'));</script><div class="fb-video" data-allowfullscreen="true" data-href="https://www.facebook.com/video.php?v=22367578434"><div class="fb-xfbml-parse-ignore"><blockquote cite="https://www.facebook.com/video.php?v=22367578434"><a href="https://www.facebook.com/video.php?v=22367578434">California Summer Music - Video Compilation</a>Posted by <a href="https://www.facebook.com/thepianistalex">Alex Wang</a> on Tuesday, July 29, 2008</blockquote></div></div>
 
-<img src="01.jpg">
-<img src="02.jpg">
-<img src="03.jpg">
-<img src="04.jpg">
-<img src="05.jpg">
-<img src="06.jpg">
-<img src="07.jpg">
-<img src="08.jpg">
-<img src="09.jpg">
-<img src="10.jpg">
-<img src="11.jpg">
-<img src="12.jpg">
-<img src="13.jpg">
-<img src="14.jpg">
-<img src="15.jpg">
-<img src="16.jpg">
-<img src="17.jpg">
-<img src="18.jpg">
-<img src="19.jpg">
-<img src="20.jpg">
-<img src="21.jpg">
-<img src="22.jpg">
-<img src="23.jpg">
-<img src="24.jpg">
-<img src="25.jpg">
-<img src="26.jpg">
+<a id="fancybox-manual-c" href="javascript:;"><img src="photogallery.jpg" /></a>
 
-</div>
 
 <h3>
 Have any photos, videos, stories or other mementos from your time at CSM?<br><br>
 
 Want to record a video testimonial about your time at CSM and what you are up to now?<br><br>
-	Send them to <a href="mailto:katie@csmusic.org?Subject=Media%20Submission" target="_top">katie@csmusic.org</a>!<br><br>
+	Send them to <a href="mailto:katie@csmusic.org?Subject=Media%20Submission" target="_top">katie@csmusic.org</a>!<br>
 </h3>
-	<p>
-	With your permission, we will have these on display at the reception.<br><br>
-	If your file is too big, try uploading to Dropbox and sending a link.
+	<p>If your file is too big, try uploading to Dropbox and sending a link.<br><br>
+	With your permission, we will have these on display at the reception.	
 </p>
 </div>
 </div>
@@ -122,6 +297,7 @@ Want to record a video testimonial about your time at CSM and what you are up to
 </div>
 
 </div>
+
 </body>
 
 </html>

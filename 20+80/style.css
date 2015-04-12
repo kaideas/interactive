@@ -482,25 +482,16 @@ position: relative;
 }
 
 
-.submissions{
-	margin: 0;
-	height:50vh;
-	top: 0;
-	color: white;
-	z-index: 1;
-	 overflow: scroll;
-	 border-top: solid rgb(245, 71, 5) 5px;
-	 	 border-bottom: solid rgb(245, 71, 5) 5px;
-
-	 margin-bottom: 20px;
-	 width: 166%;
-	 margin-left: -34%;
-}
-
-.submissions img{
+.contact img{
 	margin-top: 0px;
 	margin-bottom: 10px;
 	width: 100%;
+	margin-left: 0;
+	float: left;
+}
+
+.whitemiddle .contact .a{
+	font-family: Verlag;
 }
 
 
