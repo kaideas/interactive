@@ -54,7 +54,7 @@ html, body{
 	height: 100%;
 	text-align: center;
 	z-index: 1;
-	overflow: scroll;
+	overflow-y: scroll;
 }
 
 .whitemiddle img{
@@ -286,17 +286,6 @@ position: relative;
 	opacity: .5;
 }
 
-./*csmlogomobile {
-	width: 40px;
-	position: fixed;
-	float: right;
-	top: 1%;
-	right: 1%;
-	z-index: 5;
-	opacity: 0;
-}
-*/
-
 .nav {
 	list-style: none;
 	color: black;
@@ -308,7 +297,7 @@ position: relative;
 	width: 26.5%;
 	float: left;
 	position: fixed;
-	height:100%;
+	height: 100%;
 	z-index: 2;
 }
 
@@ -386,6 +375,15 @@ position: relative;
 
 .program iframe{
 	text-align: center;
+	width: 90%;
+	height: 20vh;
+	position: relative;
+}
+
+.program img{
+	text-align: center;
+	width: 90%;
+	position: relative;
 }
 
 .whitemiddle .program img{
@@ -407,16 +405,15 @@ position: relative;
 	text-align: center;
 	font-family: verlag;
 	font-weight: 200;
-	line-height: 1.7em;
-	padding-left: 15%;
-	padding-right: 15%;
+	line-height: 1.4em;
+	margin-left: 15%;
+	margin-right: 15%;
 }
 
 .whitemiddle .contact {
 	margin-top: 5vh;
 	display: inline-block;
 	width: 60%;
-	height: 100%;
 
 }
 
@@ -451,6 +448,7 @@ position: relative;
 	text-align: left;
 	margin-top: 0px;
 }
+
 
 .arrow {
 	position: fixed;
@@ -666,6 +664,12 @@ position: relative;
 
 .whitemiddle .contact img{
 	width: 100%;
+	position: relative;
+}
+
+.program img{
+	text-align: center;
+	width: 90%;
 	position: relative;
 }
 
