@@ -28,6 +28,11 @@ html, body{
 }
 
 
+.navtext strong{
+	font-size: 1.22em;
+	font-weight: normal;
+}
+
 .orangeleft img{
 	max-width: 100%;
 	margin: left 40%;
@@ -250,10 +255,13 @@ position: relative;
 .fullnav .nav {
 	display: none;
 	height: 100%;
+	margin: 0;
+	padding: 0;
 }
 
 .fullnav:hover .nav{
 	display: inline-block;
+	margin: 0;
 }
 
 .fullnav:hover .plusicon{
@@ -333,6 +341,7 @@ position: relative;
 	padding-right: 5%;
 	height: 10%;
 	display: block;
+	font-size: 1em;
 }
 
 .nav p{
@@ -375,8 +384,8 @@ position: relative;
 
 .program iframe{
 	text-align: center;
-	width: 90%;
-	height: 20vh;
+	width: 100%;
+	height: 35vh;
 	position: relative;
 }
 
@@ -406,8 +415,8 @@ position: relative;
 	font-family: verlag;
 	font-weight: 200;
 	line-height: 1.4em;
-	margin-left: 15%;
-	margin-right: 15%;
+	margin-left: 5%;
+	margin-right: 5%;
 }
 
 .whitemiddle .contact {
@@ -456,15 +465,15 @@ position: relative;
 	z-index: 4;
 	text-align: center;
 	width: 100%;
-	height: 5%;
+	height: 6vh;
 	background-color: rgba(255, 255, 255, .6);
 	opacity: .6;
 }
 
 
 .arrow img{
-	padding-top: 15px;
-	width: 30px;
+	padding-top: 2vh;
+	width: 3vh;
 	text-align: center;
 }
 
@@ -479,15 +488,15 @@ position: relative;
 	z-index: 4;
 	text-align: center;
 	width: 100%;
-	height: 10%;
+	height: 10vh;
 	background-color: rgba(255, 255, 255, .6);
 	opacity: .6;
 }
 
 
 .repeat img{
-	padding-top: 20px;
-	width: 30px;
+	padding-top: 2vh;
+	height: 6vh;
 	text-align: center;
 }
 
@@ -510,6 +519,9 @@ position: relative;
 	font-family: Verlag;
 }
 
+.eventorange {
+	margin: 0;
+}
 
 
 @media screen and (min-width: 1600px) {
