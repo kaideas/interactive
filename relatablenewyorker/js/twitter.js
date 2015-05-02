@@ -50,6 +50,7 @@ item = item.replace(/\"\s/, "\u2019 ");
 item = item.replace(/\"$/, "\u2019");
 item = item.replace(/'t/, "\u2019t");
 item = item.replace(/'s/, "\u2019s");
+item = item.replace(/'l/, "\u2019l");
 item = item.replace(/“/, "\u2018");
 item = item.replace(/”/, "\u2019");
 item = item.replace(/ "/, " \u2018");

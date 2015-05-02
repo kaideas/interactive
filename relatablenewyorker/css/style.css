@@ -54,6 +54,7 @@ a {
 	padding: 10px 15px 8px 15px;
 	border-radius: 3px;
 	vertical-align: center;
+	cursor: url('manicule.png') 24 0, pointer;
 }
 
 body {
@@ -199,19 +200,20 @@ img {
 	}
 
 	img {
-		max-height: 35vh;
+		max-height: 38vh;
 		margin: auto;
 	}
 
 	.caption p {
-		padding-right: 7%;
-		padding-left: 7%;
+		padding-right: 10%;
+		padding-left: 10%;
 		padding-bottom: 20%;
 	}
 
 	.info {
 		display: none;
 	}
+
 
 
 	}

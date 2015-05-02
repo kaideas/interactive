@@ -43,4 +43,8 @@ $(document).ready(function(){
 	$('.spice').click(function(){
 			counter = add_sentence(counter);
 	});
+
+
+
+
 });
