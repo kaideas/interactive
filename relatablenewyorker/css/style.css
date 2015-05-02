@@ -203,9 +203,10 @@ img {
 		margin: auto;
 	}
 
-	p {
+	.caption p {
 		padding-right: 5%;
 		padding-left: 5%;
+		padding-bottom: 20%;
 	}
 
 	.info {
