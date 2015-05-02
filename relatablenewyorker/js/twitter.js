@@ -16,6 +16,7 @@ $.ajax({
     // If the call request was successful and the data was retrieved, this function will create a list displaying the data
     
     var collection = response.results.collection1;
+    var captions = new Array;
     for (var i = 0; i < collection.length; i++){   
     // Traverses through every element in the entire collection 
 
@@ -24,20 +25,33 @@ $.ajax({
 
       var tweetText = collection[i].tweet.text;
 
-      console.log(collection[i]);
 
      var oldString = tweetText;
-     var newString = tweetText.split('pic.twitter', 1)[i];
+     var newString = tweetText.split(/pic.twitter/ || /\spic.twitter/, 1)[0];
+
+     captions[i]= newString;
       }
 
 
-var item = collection[Math.floor(Math.random()*collection.length)];
+var item = captions[Math.floor(Math.random()*captions.length)];
 
-console.log(item);
+item = item.charAt(0).toUpperCase() + item.slice(1);
+item = item.replace(/\s*$/,"");
+item = item.replace(/\'/, "\u2019");
+item = item.replace(/\s\"/, " \u2018");
+item = item.replace(/^\"/, " \u2018");
+item = item.replace(/\"\s/, "\u2019 ");
+item = item.replace(/\"$/, "\u2019");
 
 
+var punc = /[\!\.\?]$/
 
-     $('.captext').append(item.text);
+if (item.charAt(item.length-1) !== "." || "?" || "!") {
+  item += "\.";
+}
+
+
+     $('.captext').append(item);
 
 
   }
