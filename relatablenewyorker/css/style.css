@@ -171,7 +171,7 @@ img {
 	.links {
 		margin-top: 10%;
 		position: fixed;
-		bottom: 110px;
+		bottom: 72px;
 	}
 
 	.links a{
@@ -184,14 +184,14 @@ img {
 	bottom: 0;
 	font-size: 1em;
 	line-height: .5em;
-	padding: 20px 0 20px 0;
+	padding: 12px 0 12px 0;
 	}
 
 	.submit a{
 		vertical-align: middle;
 		font-size: 1.5em;
 		height: 10px;
-		padding: 15px 0 15px 0;
+		padding: 12px 0 12px 0;
 		line-height: .5em;
 	}
 
@@ -207,6 +207,13 @@ img {
 
 	.info {
 		display: none;
+	}
+
+	.container {
+		bottom: 150px;
+		left: 16%;
+		right: auto;
+		position: absolute;
 	}
 
 	}
