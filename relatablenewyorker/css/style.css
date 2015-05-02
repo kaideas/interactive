@@ -127,8 +127,46 @@ img {
 	width: 200px;
 	vertical-align: middle;
 	margin: 0;
+	padding-bottom: 6px;
 }
 
+#lean_overlay {
+    position: fixed;
+    z-index:100;
+    top: 0px;
+    left: 0px;
+    height:100%;
+    width:100%;
+    background: #000;
+    display: none;
+}
+
+#test {
+width: 600px;
+padding: 30px;
+display: none;
+background: #FFF;
+}
+
+#test a{
+	background-color: #1DADBC;
+	line-height: 2em;
+	font-size: 1.5em;
+}
+
+#test {
+	font-family: Neutra Text;
+}
+
+#test #cap {
+	font-family: Adobe Caslon;
+	font-size: 1em;
+	font-style: italic;
+	margin-top: 10px;
+	margin-bottom: 0px;
+	padding-bottom: 10px;
+
+}
 
 @media screen and (max-width: 720px) {
 

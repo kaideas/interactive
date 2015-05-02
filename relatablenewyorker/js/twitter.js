@@ -71,6 +71,7 @@ if (end === "." ||
 
 $('.captext').append(item);
 
+$('#cap').append(item);
 
 }
  

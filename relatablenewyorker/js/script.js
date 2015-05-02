@@ -40,11 +40,24 @@ $(document).ready(function(){
 			return 0;
 	}
 
+
+
 	$('.spice').click(function(){
 			counter = add_sentence(counter);
 	});
 
+// 	$('.submit').click(function() {
 
+// 	var text = $(".captext").text();
+
+// 		$('a[rel*=leanModal]').leanModal({ top : 200, closeButton: ".modal_close" });       
+// 		console.log("poop");
+
+// 		alert("Copy caption below: \n" + text);
+
+// });
+
+  $("#go").leanModal();
 
 
 });
