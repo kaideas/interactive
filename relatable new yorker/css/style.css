@@ -1,0 +1,178 @@
+body{
+	margin: 0;
+	top: 0;
+	-webkit-font-smoothing: antialiased;
+
+}
+
+@font-face {
+    font-family: Neutra Text;
+    src: url(NeutraTextBoldSC.otf);
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: Adobe Caslon;
+    src: url(ACaslonPro-Regular.otf);
+    font-weight: 300;
+}
+
+
+@font-face {
+    font-family: Adobe Caslon;
+    src: url(ACaslonPro-Italic.otf);
+    font-weight: 300;
+    font-style: italic;
+}
+
+.info p {
+	font-family: Adobe Caslon;
+	font-size: .6em;
+}
+
+.info{
+	margin-bottom: 20px;
+}
+
+h1 {
+	font-family: Neutra Text;
+	font-weight: 600;
+	font-size: 3em;
+	color: white;
+	background-color: #3D95CE;
+	padding-top: 7px;
+	padding-bottom: 7px;
+	letter-spacing: 1px;
+}
+
+a {
+	font-family: Neutra Text;
+	font-weight: 600;
+	text-decoration: none;
+	color: white;
+	padding: 10px 15px 8px 15px;
+	border-radius: 3px;
+	vertical-align: center;
+}
+
+body {
+	text-align: center;
+	width: 100%;
+}
+
+
+
+
+img {
+	max-height: 60vh;
+	max-width: 300px;
+	max-width: 80vw;
+	padding-top: 2%;
+}
+
+.caption p{
+	font-family: Adobe Caslon;
+	font-size: 1em;
+	font-style: italic;
+	margin-top: 10px;
+	margin-bottom: 0px;
+}
+
+.meta p{
+	font-family: Adobe Caslon;
+	font-size: 1em;
+	font-style: normal;
+	margin-top: 5px;
+	margin-bottom: 20px;
+}
+
+.links {
+	height: 20px;
+	margin-left: 0;
+	left: 0;
+	bottom: 40px;
+	display: block;
+	position: absolute;
+	width: 100%;
+}
+
+.links a{
+    display: inline-block;
+	font-family: Neutra Text;
+	font-weight: 600;
+    color: white;
+    background-color: #6E787F;
+    width: 120px;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 3px;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.links a:hover{
+	opacity: .7;
+}
+
+.submit a{
+	background-color: #3D95CE;
+	display: inline-block;
+	font-size: 2.2em;
+	width: 200px;
+	vertical-align: middle;
+	margin: 0;
+}
+
+
+@media screen and (max-width: 760px) {
+
+	img {
+		padding-top: 6%;
+	}
+
+}
+
+
+
+@media screen and (max-width: 553px) {
+	.links {
+		margin-top: 10%;
+		position: fixed;
+		bottom: 136px;
+	}
+
+	.links a{
+	display: block;
+	width: 100vw;
+	border-radius: 0;
+	margin: 0;
+	height: 8px;
+	vertical-align: middle;
+	bottom: 0;
+	font-size: 1.3em;
+	line-height: .5em;
+	padding: 20px 0 20px 0;
+	}
+
+	.submit a{
+		vertical-align: middle;
+		font-size: 2.2em;
+		height: 20px;
+		padding: 25px 0 15px 0;
+		line-height: .5em;
+	}
+
+	img{
+		max-width: 100vw;
+		padding-top: .5%;
+
+	}
+}
+
+
+@media screen and (max-width: 470px) {
+	img {
+		padding-top: 10%;
+	}
+	}
