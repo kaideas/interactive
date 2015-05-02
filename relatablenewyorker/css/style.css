@@ -142,10 +142,12 @@ img {
 }
 
 #test {
-width: 600px;
+width: 320px;
 padding: 30px;
 display: none;
 background: #FFF;
+border-radius: 3px;
+text-align: center;
 }
 
 #test a{
@@ -165,6 +167,8 @@ background: #FFF;
 	margin-top: 10px;
 	margin-bottom: 0px;
 	padding-bottom: 10px;
+	padding-left: 15px;
+	padding-right: 15px;
 
 }
 
