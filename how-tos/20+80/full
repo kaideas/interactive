@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>CSM 20+80 Celebration</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<link rel="stylesheet" href="normalize.css">
+	<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+
+<!-- start front page -->
+<div class="front">
+
+<div class="orangeleft">
+	<div class="textcontainer">
+	<div class="bottomtext">
+		<h2>SUNDAY</h2>
+		<h1>JULY 19</h1>
+		<h2>2015</h2>
+	</div>
+</div>
+</div>
+
+<div class="whitemiddle">
+	<img src="20+80 orange logo.svg">
+	<div class="textcontainer">
+	<div class="bottomtext">
+	<h1>A CALIFORNIA<br>SUMMER MUSIC<br>CELEBRATION</h1>
+</div>
+</div>
+</div>
+
+
+<div class="orangeright">
+	<div class="textcontainer">
+	<div class="bottomtext">
+		<h1>GREEN</h1>
+		<h2>MUSIC CENTER<br><br>SONOMA STATE<br>UNIVERSITY</h2>
+	</div>
+</div>
+</div>
+
+</div>
+
+<!-- end front page, start 20anniv -->
+
+
+
+</body>
+
+</html>

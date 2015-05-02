@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>CSM 20+80 Celebration</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<link rel="stylesheet" href="normalize.css">
+	<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<nav class="fullnav">
+	<div class="plusicon">
+		<img src="logo5.svg"></img>
+	</div>
+	<nav class="nav">
+
+	<div class="navtext">
+		<a href="#frontpage"><img src="logo4.svg"></a>
+		<a href="#20anniv">20<small>TH ANNIVERSARY</small></a>
+		<a href="#80bday">80<small>TH BIRTHDAY</small></a>
+		<a href="#event"><small>EVENT INFO</small></a>
+		<a href="#program"><small>CONCERT PROGRAM</small></a>
+		<a href="#alumni"><small>ALUMNI SUBMISSIONS</small></a>
+		<a href="#contact"><small>CONTACT</small></a>
+		<p>&nbsp;</p>
+		<p>&nbsp;</p>
+		<p>&nbsp;</p>
+		<p>&nbsp;</p>		
+		<p>&nbsp;</p>
+		<p>&nbsp;</p>
+		<p>&nbsp;</p>
+		<p>&nbsp;</p>		
+	</div>
+
+	</nav>
+</nav>
+
+<div class="front">
+
+<div class="orangeleft">
+		<div class="eventorange">
+	<div class="textcontainer">
+	<div class="bottomtext">
+		<h1>CONCERT</h1>
+		<h1>7 <small>PM</small></h1>
+	</div>
+</div>
+</div>
+</div>
+
+<div class="whitemiddle">
+	<div class="program">
+
+<h1>CONTACT</h1>
+<p>
+
+<i>Phone:</i><br>
+(415) 753 8920<br>
+
+<i>Fax:</i><br>
+(415) 753 8934<br>
+
+<i>Email:</i><br>
+csm@csmusic.org - Josh Leichtung
+
+<i>Office:</i><br>
+California Summer Music<br>
+236 West Portal Ave. #104<br>
+San Francisco, CA 94127<br>
+
+<i>Sonoma State University:</i>
+1801 E Cotati Ave<br>
+Rohnert Park, CA 94928<br>
+
+</p>
+</div>
+</div>
+
+
+<div class="orangeright">
+	<div class="eventorange">
+	<div class="textcontainer">
+	<div class="bottomtext">
+		<h1>GREEN</h1>
+		<h2>MUSIC CENTER<br><br>SONOMA STATE<br>UNIVERSITY</h2>
+	</div>
+</div>
+</div>
+</div>
+
+</div>
+</body>
+
+</html>
