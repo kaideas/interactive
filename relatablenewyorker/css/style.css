@@ -212,11 +212,5 @@ img {
 		display: none;
 	}
 
-	.container {
-		bottom: 100px;
-		left: auto;
-		right: auto;
-		position: absolute;
-	}
 
 	}
