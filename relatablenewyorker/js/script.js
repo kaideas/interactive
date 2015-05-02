@@ -11,6 +11,7 @@ $(document).ready(function(){
 			if (counter==0) {
 				console.log("clicked");
 				$(".captext").append(right);
+				$("#cap").append(right);
 				return 1;
 			}
 
@@ -29,6 +30,7 @@ $(document).ready(function(){
 				str = str.concat(days);
 				str = deal.concat(str);
 				$('.captext').text(str);
+				$("#cap").text(str);
 			
 				return 2;
 			}
@@ -37,6 +39,7 @@ $(document).ready(function(){
 			str = str + ".";
 			str = str.charAt(0).toUpperCase() + str.slice(1);
 			$('.captext').text(str);
+			$("#cap").text(str);
 			return 0;
 	}
 
