@@ -78,6 +78,8 @@ img {
 	margin-top: 10px;
 	margin-bottom: 0px;
 	padding-bottom: 10vh;
+	padding-left: 30%;
+	padding-right: 30%;
 }
 
 .meta p{
@@ -212,7 +214,7 @@ img {
 
 	.container {
 		bottom: 100px;
-		left: 16%;
+		left: auto;
 		right: auto;
 		position: absolute;
 	}

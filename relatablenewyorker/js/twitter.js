@@ -17,43 +17,60 @@ $.ajax({
     
     var collection = response.results.collection1;
     var captions = new Array;
-    for (var i = 0; i < collection.length; i++){   
-    // Traverses through every element in the entire collection 
+    
+     // Traverses through every element in the entire collection 
+    for (var i = 0; i < collection.length; i++) {
 
       // var photoURL = collection[i].Picture.src;
       // var timeStamp = collection[i].Date.text;
 
       var tweetText = collection[i].tweet.text;
+      var oldString = tweetText; 
+      var newString = tweetText.split(/pic.twitter/ || /\spic.twitter/, 1)[0];
 
-
-     var oldString = tweetText;
-     var newString = tweetText.split(/pic.twitter/ || /\spic.twitter/, 1)[0];
-
-     captions[i]= newString;
-      }
+      captions[i]= newString;
+    }
 
 
 var item = captions[Math.floor(Math.random()*captions.length)];
 
+while (item.length === 0) {
+  console.log("HERE!");
+  console.log(item);
+  console.log("still here");
+  item = captions[Math.floor(Math.random()*captions.length)];
+}
+
 item = item.charAt(0).toUpperCase() + item.slice(1);
 item = item.replace(/\s*$/,"");
-item = item.replace(/\'/, "\u2019");
-item = item.replace(/\s\"/, " \u2018");
+item = item.replace(/'/, "\u2019");
 item = item.replace(/^\"/, " \u2018");
+item = item.replace(/ \"/, " \u2018");
 item = item.replace(/\"\s/, "\u2019 ");
 item = item.replace(/\"$/, "\u2019");
+item = item.replace(/'t/, "\u2019t");
+item = item.replace(/'s/, "\u2019s");
+item = item.replace(/“/, "\u2018");
+item = item.replace(/”/, "\u2019");
+item = item.replace(/ "/, " \u2018");
 
 
-var punc = /[\!\.\?]$/
 
-if (item.charAt(item.length-1) !== "." || "?" || "!") {
+
+var end = item.charAt(item.length-1);
+
+if (end === "." ||
+    end === "?" ||
+    end === "!" ||
+    end === "\u2019") {
+} else {
   item += "\.";
 }
 
 
-     $('.captext').append(item);
+$('.captext').append(item);
 
 
-  }
+}
  
   })
