@@ -27,6 +27,8 @@ $.ajax({
       var tweetText = collection[i].tweet;
       var oldString = tweetText; 
       var newString = tweetText.split(/pic.twitter/ || /\spic.twitter/, 1)[0];
+      newString = newString.split(/http/, 1)[0];
+      console.log(newString);
 
       captions[i]= newString;
     }
