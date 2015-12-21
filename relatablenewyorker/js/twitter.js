@@ -7,9 +7,9 @@
 //    Your API key will appear. Paste this code in line 10 of the below code after "apikey-"
 
 $.ajax({
-    "url":"https://www.kimonolabs.com/api/6hm2zpvw?apikey=R0CSnDenTOCbQuR258E2H3CsA6ZD4QHh",
-    "crossDomain":true,
-    "dataType":"jsonp",
+    url:"https://www.kimonolabs.com/api/6hm2zpvw?apikey=R0CSnDenTOCbQuR258E2H3CsA6ZD4QHh",
+    crossDomain: true,
+    dataType: "jsonp",
     // Make a call to the Kimono API following the "url" 
     
     'success': function(response){ 
@@ -24,7 +24,7 @@ $.ajax({
       // var photoURL = collection[i].Picture.src;
       // var timeStamp = collection[i].Date.text;
 
-      var tweetText = collection[i].tweet.text;
+      var tweetText = collection[i].tweet;
       var oldString = tweetText; 
       var newString = tweetText.split(/pic.twitter/ || /\spic.twitter/, 1)[0];
 
@@ -75,4 +75,4 @@ $('#cap').append(item);
 
 }
  
-  })
+  });
